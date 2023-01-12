@@ -28,3 +28,7 @@ const randomSiteGame = () => {
       console.log(`something went wrong`);
   ;}
 };
+
+function openNav() {
+  document.getElementById('sidebar-nav').classList.toggle('active');
+}
