@@ -1,5 +1,8 @@
 /* Main javascript file */
 
+const menu = document.getElementById("nav-list");
+const menuButton = document.getElementById("nav-btn");
+
 function generateRandomNumber() {
   let randomNumber = Math.floor(Math.random() * 5);
   return randomNumber;
@@ -29,6 +32,21 @@ const randomSiteGame = () => {
   ;}
 };
 
-function openNav() {
-  document.getElementById('sidebar-nav').classList.toggle('active');
-}
+const toggleMenuButtonColor = () => {
+  if (menuButton.style.color === "green") {
+      menuButton.style.color = "aqua";
+  } else if (menuButton.style.color === "aqua") {
+    menuButton.style.color = "blue";
+  } else if (menuButton.style.color === "blue") {
+      menuButton.target.style.color = "green";
+  };
+};
+
+// function myFunction() {
+//   var x = document.getElementById("myDIV");
+//   if (x.style.display === "none") {
+//     x.style.display = "block";
+//   } else {
+//     x.style.display = "none";
+//   }
+// }

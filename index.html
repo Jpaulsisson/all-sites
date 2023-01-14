@@ -4,7 +4,6 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Lexend+Zetta:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
   <title>A Site to Link to All of My Other Sites</title>
   <meta name="Links to all sites made by Jpaulsisson" content="Links to all sites made by Jpaulsisson">
   <meta name="Jpaulsisson" content="Links">
@@ -13,35 +12,55 @@
 </head>
 <body>
   <header>
-    <nav id="sidebar-nav">
-      <div class="toggle-btn" onclick="openNav()">
-        <span></span>
-        <span></span>
-        <span></span>
-      </div>
-      <ul class="nav-list" role="presentation">
-        <li><a href="#">Who Am I?</a></li> <!--about me section-->
-        <li><a href="#">What Am I Doing Here?</a></li> <!--about this site-->
-        <li><a href="#">What Else Have I Done?</a></li> <!--full list of sites-->
-        <li><a href="#">What Are You Up To?</a></li> <!--interactive section for visitors to leave comments-->
-        <li><a href="#">Wanna Be Friends?</a></li> <!--contact section-->
-      </ul>
-    </nav>
-    <div class="banner-div">
-      <h1 class="banner">Jpaulsisson Devs</h1>
-  </div>
-  </header>
+    <div class="logo">
+      <h1 class="logo">J.
+        <br>Paul
+        <br>Sisson
+    </h1>
+    </div>
+    <div class="nav-btn">
+      <button type="button" id="nav-btn" onclick="toggleMenuButtonColor()">Click here</button>
+    </div>
+    <div class="navbar">
+      <nav class="navbar">
+        <ul id="nav-list" class="nav-list">
+          <li><a class="nav-item" href="#">Who Am I?</a></li>
+          <li><a class="nav-item" href="#">Who Am I?</a></li>
+          <li><a class="nav-item" href="#">Who Am I?</a></li>
+          <li><a class="nav-item" href="#">Who Am I?</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>    
+  
+  <!-- END OF HEADER -->
+
   <div class="main-content">
     <section class="welcome" id="welcome">
     <h2 class="welcome-header">WELCOME</h2>
     <p class="welcome">
       Welcome to my webpage. I put an absolute metric ton of work into this site because it's the first one I've ever built (aka I have had to look up everything at least once). That means that by the time you're reading this, I'm much better at building these old things. Below you'll find some fun stuff to click on, and also this website will hold links to all my other projects going forward. I'm imagining it now, coming together like a playground for a new developer to experiment and be terrible at coding until he's not anymore. I hope you enjoy and have an amazing day. You are beautiful.
     </p>
+    <div class="welcome-photos">
+      <img src="#" alt="A welcoming photo">
+      <img src="#" alt="A nice photo"
+    </div>
   </section>
+
+<!--END OF WELCOME-->
+
   <section class="about-me" id="about-me">
     <h2 class="about-me-header">WHO AM I?</h2>
-    <p class="about-me">I am no one. Just a hairless monkey, with snakes crawling around in his head. If I have a silver-lining it's certainly my persistence in learning. When you know you're dumb, you do a lot more things to make yourself un-dumb. Being from a small town in Alabama, the world had made up their mind that I drove a lawn mower to a school of 30 kids, until I could get my dad's hand-me-down pickup truck and go to work at the auto-shop. None of those stereotypes ever fit me much. Though I did grow up in the woods, with very few neighbors and rode dirtbikes with friends for most of my childhood. I have chewed tobacco too...hmm maybe I am a hick. I started traveling pretty seriously when I hit my 20s and have seen a ton of my bucketlist already. That includes a 6 month stay in London, where I earned my professional certification as a master barber. In the end, I just like to learn and now that I've discovered coding, it's like there's a bottomless well of knowledge in front of me. </p>
+    <p class="about-me">I am no one. Just a hairless monkey, with snakes crawling around in his head. If I have a silver-lining it's certainly my persistence in learning. When you know you're dumb, you do a lot more things to make yourself un-dumb. Being from a small town in Alabama, the world had made up their mind that I drove a lawn mower to a school of 30 kids, until I could get my dad's hand-me-down pickup truck and go to work at the auto-shop. None of those stereotypes ever fit me much. Though I did grow up in the woods, with very few neighbors and rode dirtbikes with friends for most of my childhood. I have chewed tobacco too...hmm maybe I am a hick. I started traveling pretty seriously when I hit my 20s and have seen a ton of my bucketlist already. That includes a 6 month stay in London, where I earned my professional certification as a master barber. In the end, I just like to learn and now that I've discovered coding, it's like there's a bottomless well of knowledge in front of me. 
+    </p>
+    <div class="about-me-photos">
+      <img src="#" alt="A photo of me, computing">
+      <img src="#" alt="Another photo of me">
+    </div>
   </section>
+
+<!--END OF ABOUT ME-->
+
   <section class="about-site">
     <h2 class="about-site-header">WHAT AM I DOING HERE?</h2>
     <p class="about-site">Well, I'm essentially creating a website that will serve as a time capsule/journal on my road to becoming a full-stack developer. Coding has awakened a desire for learning and growing in me that I haven't felt in a while. It is very challenging but when you click run and debug and see your own algorithm run perfectly, what a feeling. Chills. A rush of satisfaction and accomplishment. All those hours googling "how do I...in CSS" and "how to...in JS", they've finally paid off. You made it work! It's truly a beautiful experience. So, what am I doing here? Hoping to remind my future-self and you, to just keep going and find the fire in you. You got this.</p>
