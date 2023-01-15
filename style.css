@@ -1,5 +1,20 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Lexend+Zetta:wght@100;200;300;400;500;600;700;800;900&family=Playfair+Display:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Zetta:wght@100;200;300;400;500;600;700;800;900&family=Playfair+Display:wght@400;500;700&display=swap');
 
 :root {
   --background: rgba(47, 53, 60, 0.775);
-} */
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Playfair Display", sans-serif;
+  font-size: 16px;
+}
+
+.banner {
+  border: 3px solid firebrick;
+  display: flex;
+  flex-grow: 1;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
