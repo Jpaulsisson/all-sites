@@ -62,7 +62,8 @@
 
 body {
   background-image: url(images/markus-spiske-MgtHZ4zlC1U-unsplash.jpg);
-  color: rgb(208, 221, 218);
+  color: rgb(32, 29, 29);
+  font-size: 1.25rem;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
