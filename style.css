@@ -184,3 +184,17 @@ margin: 0;
   padding: .5em;
   text-decoration: none;
 }
+
+.project-images {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.5rem;
+  /*max-width: 400px;
+  max-height: 400px; doesn't work */  
+}
+
+/* .project-images a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+} */
