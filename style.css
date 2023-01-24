@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Lexend+Zetta:wght@100;200;300;400;500;600;700;800;900&family=Playfair+Display:wght@400;500;700&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap');
 
 :root {
   --background: rgba(38, 39, 41, 0.75);
@@ -7,7 +7,7 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: "Playfair Display", sans-serif;
+  font-family: "Comfortaa", sans-serif;
   box-sizing: border-box;
 }
 
@@ -51,6 +51,7 @@ img {
   display: flex;
   gap: 3em;
   justify-content: center;
+  align-items: center;
   margin-right: 2em;
 }
 
@@ -58,7 +59,7 @@ img {
   display: flex;
   color: white;
   margin: 3px;
-  padding: 15px 2px;
+  padding: 15px 10px;
   text-decoration: none;
   transition: ease-in-out 250ms;
 }
@@ -68,7 +69,6 @@ img {
   border-radius: 23px 57px 28px 90px;
   border:3px solid rgb(236, 234, 187);
   font-size: 1.1rem;
-  text-decoration: underline var(--background);
   padding: 1em;
 }
 
@@ -192,22 +192,34 @@ margin: 0;
 
 .project-images {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: repeat(4, 1fr);
   margin: 3%;
 }
 
 .project-images a {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  outline: 3px solid blue;
-  height: 40vh;
-  width: 40vh;
+  justify-self: center;
+  align-self: center;
+  border: 2px solid black;
+  height: 23vh;
+  width: 23vw;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
 }
 .project-images a img {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  align-self: center;
+  justify-self: center;
   height: 100%;
   width: 100%;
+
 }
+
+.text {
+  opacity: 0;
+  transition: .5s;
+  text-decoration: none;
+  color:rgba(213, 213, 213, 0.766);
+}
+/* .project-images a:hover {
+
+} */
