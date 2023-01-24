@@ -11,7 +11,12 @@ const aboutSiteP = document.querySelector('.about-site-p');
 const otherProjectsP = document.querySelector('.other-projects-p');
 const underSimp = document.querySelector('.under-simp');
 const simpPhoto = document.querySelector('#simp-photo');
-
+const underIdea = document.querySelector('.under-idea');
+const ideaPhoto = document.querySelector('#idea-photo');
+const underPmg = document.querySelector('.under-pmg');
+const pmgPhoto = document.querySelector('#pmg-photo');
+const underAlg = document.querySelector('.under-alg');
+const algPhoto = document.querySelector('#alg-photo');
 
 
 /*============== PARAGRAPH INTERACTIVITY FUNCTIONS ================ */
@@ -90,13 +95,45 @@ hello.onmouseup = returnToNormalSize;
 /* ================ PHOTO FUNCTIONS =============== */
 
 function nameAppearSimp() {
-    underSimp.style.opacity = '0.9';
+  underSimp.style.opacity = '0.9';
 };
 
 function nameDisappearSimp() {
   underSimp.style.opacity = '0';
 }
 
-
 simpPhoto.onmouseenter = nameAppearSimp;
 simpPhoto.onmouseleave = nameDisappearSimp;
+
+function nameAppearIdea() {
+  underIdea.style.opacity = '0.9';
+};
+
+function nameDisappearIdea() {
+  underIdea.style.opacity = '0';
+}
+
+ideaPhoto.onmouseenter = nameAppearIdea;
+ideaPhoto.onmouseleave = nameDisappearIdea;
+
+function nameAppearPmg() {
+  underPmg.style.opacity = '0.9';
+};
+
+function nameDisappearPmg() {
+  underPmg.style.opacity = '0';
+}
+
+pmgPhoto.onmouseenter = nameAppearPmg;
+pmgPhoto.onmouseleave = nameDisappearPmg;
+
+function nameAppearAlg() {
+  underAlg.style.opacity = '0.9';
+};
+
+function nameDisappearAlg() {
+  underAlg.style.opacity = '0';
+}
+
+algPhoto.onmouseenter = nameAppearAlg;
+algPhoto.onmouseleave = nameDisappearAlg;

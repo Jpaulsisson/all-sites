@@ -214,7 +214,28 @@ margin: 0;
 
 }
 
-.text {
+.under-simp {
+  opacity: 0;
+  transition: .5s;
+  text-decoration: none;
+  color:rgba(213, 213, 213, 0.766);
+}
+
+.under-idea {
+  opacity: 0;
+  transition: .5s;
+  text-decoration: none;
+  color:rgba(213, 213, 213, 0.766);
+}
+
+.under-pmg {
+  opacity: 0;
+  transition: .5s;
+  text-decoration: none;
+  color:rgba(213, 213, 213, 0.766);
+}
+
+.under-alg {
   opacity: 0;
   transition: .5s;
   text-decoration: none;
