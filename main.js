@@ -3,8 +3,9 @@
 /* ==================== VARIABLE BANK ============================ */
 
 const body = document.querySelector('body');
+const hamburger = document.querySelector('.hamburger');
+const navMenu = document.querySelector('.nav-menu');
 const hello = document.getElementById('hello-sign');
-const logo = document.getElementById('logo');
 const welcomeP = document.getElementById('welcome-p');
 const aboutMeP = document.querySelector('.about-me-p');
 const aboutSiteP = document.querySelector('.about-site-p');
@@ -19,6 +20,11 @@ const underAlg = document.querySelector('.under-alg');
 const algPhoto = document.querySelector('#alg-photo');
 
 
+
+hamburger.addEventListener("click", () => {
+  hamburger.classList.toggle('active');
+  navMenu.classList.toggle('active');
+})
 /*============== PARAGRAPH INTERACTIVITY FUNCTIONS ================ */
 
 function changeWelcomePColor() {
