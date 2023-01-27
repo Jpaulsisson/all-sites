@@ -19,13 +19,20 @@ const pmgPhoto = document.querySelector('#pmg-photo');
 const underAlg = document.querySelector('.under-alg');
 const algPhoto = document.querySelector('#alg-photo');
 
-
+/* ===================== NAV FUNCTIONS ========================= */
 
 hamburger.addEventListener("click", () => {
   hamburger.classList.toggle('active');
   navMenu.classList.toggle('active');
-})
-/*============== PARAGRAPH INTERACTIVITY FUNCTIONS ================ */
+});
+
+document.querySelectorAll(".nav-item").forEach(n => n.addEventListener('click', () => {
+  hamburger.classList.remove('active');
+  navMenu.classList.remove('active');
+}));
+
+
+/* ============== PARAGRAPH INTERACTIVITY FUNCTIONS ================ */
 
 function changeWelcomePColor() {
   if (welcomeP.style.color !== 'orange') {

@@ -1,7 +1,7 @@
   @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap');
 
 :root {
-  --background: rgba(38, 39, 41, 0.75);
+  --background: rgba(38, 39, 41, 0.9);
 }
 
 * {
@@ -44,6 +44,10 @@ header a {
   padding: 0 24px;
 }
 
+.logo {
+  color: aquamarine;
+  font-size: 3rem;
+}
 
 .hamburger {
   display: block;
@@ -79,7 +83,9 @@ header a {
   background-color: var(--background);
   width: 100%;
   text-align: center;
-  transition: 0.5s ease-in-out;
+  justify-content: center;
+  align-items: center;
+  transition: 0.1s ease-in-out;
 }
 
 .nav-menu.active {
@@ -193,7 +199,7 @@ margin: 0;
 
 .other-projects-p a {
   color: rgb(32, 29, 29);
-  text-decoration: overline rgba(141, 209, 193, 0.923);
+  text-decoration: none;
   transition: ease-in-out 400ms;
 }
 
