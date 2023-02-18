@@ -80,7 +80,7 @@ header a {
   top: 70px;
   gap: 2vh;
   flex-direction: column;
-  background-color: var(--background);
+  background-color: rgba(0, 0, 0, 0.9);
   width: 100%;
   text-align: center;
   justify-content: center;
@@ -113,6 +113,7 @@ header a {
   height: auto;
   margin-bottom: 200px;
   filter: none;
+  cursor: pointer;
 }
 
 body {
